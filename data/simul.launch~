@@ -1,0 +1,6 @@
+<!-- SIMULATION ENV -->
+<launch>
+  <!-- change this line for your own simulator -->
+  <include file="$(find easy)/launch/fake_turtlebot.launch" />
+  <include file="$(find turtlebotVoiceControl)/data/tvcontrol.launch" />
+</launch>
